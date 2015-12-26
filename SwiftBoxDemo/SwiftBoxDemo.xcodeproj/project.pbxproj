@@ -16,6 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6ABD7C261C2F49FE00889A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8896A9641A7F1B1E004301E8 /* SwiftBox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 889865B31AAFD89B009C19D1;
+			remoteInfo = "SwiftBox-iOS";
+		};
 		8896A9551A7F1B10004301E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8896A93C1A7F1B10004301E8 /* Project object */;
@@ -151,6 +158,7 @@
 			children = (
 				8896A96A1A7F1B1F004301E8 /* SwiftBox.framework */,
 				8896A96C1A7F1B1F004301E8 /* SwiftBoxTests.xctest */,
+				6ABD7C271C2F49FE00889A04 /* SwiftBox.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,7 +209,8 @@
 		8896A93C1A7F1B10004301E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Josh Abernathy";
 				TargetAttributes = {
 					8896A9431A7F1B10004301E8 = {
@@ -239,6 +248,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		6ABD7C271C2F49FE00889A04 /* SwiftBox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftBox.framework;
+			remoteRef = 6ABD7C261C2F49FE00889A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		8896A96A1A7F1B1F004301E8 /* SwiftBox.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -338,6 +354,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -402,6 +419,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftBoxDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshaber.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -413,6 +431,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftBoxDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshaber.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -432,6 +451,7 @@
 				);
 				INFOPLIST_FILE = SwiftBoxDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshaber.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBoxDemo.app/Contents/MacOS/SwiftBoxDemo";
 			};
@@ -448,6 +468,7 @@
 				);
 				INFOPLIST_FILE = SwiftBoxDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshaber.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBoxDemo.app/Contents/MacOS/SwiftBoxDemo";
 			};

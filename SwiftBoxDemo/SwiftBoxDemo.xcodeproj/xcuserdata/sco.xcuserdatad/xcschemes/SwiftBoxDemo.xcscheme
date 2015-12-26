@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "882D60671A7F05E1001C5181"
-               BuildableName = "SwiftBox.framework"
-               BlueprintName = "SwiftBox-Mac"
-               ReferencedContainer = "container:SwiftBox.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "882D60721A7F05E1001C5181"
-               BuildableName = "SwiftBoxTests.xctest"
-               BlueprintName = "SwiftBoxTests"
-               ReferencedContainer = "container:SwiftBox.xcodeproj">
+               BlueprintIdentifier = "8896A9431A7F1B10004301E8"
+               BuildableName = "SwiftBoxDemo.app"
+               BlueprintName = "SwiftBoxDemo"
+               ReferencedContainer = "container:SwiftBoxDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "882D60721A7F05E1001C5181"
-               BuildableName = "SwiftBoxTests.xctest"
-               BlueprintName = "SwiftBoxTests"
-               ReferencedContainer = "container:SwiftBox.xcodeproj">
+               BlueprintIdentifier = "8896A9531A7F1B10004301E8"
+               BuildableName = "SwiftBoxDemoTests.xctest"
+               BlueprintName = "SwiftBoxDemoTests"
+               ReferencedContainer = "container:SwiftBoxDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "882D60671A7F05E1001C5181"
-            BuildableName = "SwiftBox.framework"
-            BlueprintName = "SwiftBox-Mac"
-            ReferencedContainer = "container:SwiftBox.xcodeproj">
+            BlueprintIdentifier = "8896A9431A7F1B10004301E8"
+            BuildableName = "SwiftBoxDemo.app"
+            BlueprintName = "SwiftBoxDemo"
+            ReferencedContainer = "container:SwiftBoxDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "882D60671A7F05E1001C5181"
-            BuildableName = "SwiftBox.framework"
-            BlueprintName = "SwiftBox-Mac"
-            ReferencedContainer = "container:SwiftBox.xcodeproj">
+            BlueprintIdentifier = "8896A9431A7F1B10004301E8"
+            BuildableName = "SwiftBoxDemo.app"
+            BlueprintName = "SwiftBoxDemo"
+            ReferencedContainer = "container:SwiftBoxDemo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -93,15 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "882D60671A7F05E1001C5181"
-            BuildableName = "SwiftBox.framework"
-            BlueprintName = "SwiftBox-Mac"
-            ReferencedContainer = "container:SwiftBox.xcodeproj">
+            BlueprintIdentifier = "8896A9431A7F1B10004301E8"
+            BuildableName = "SwiftBoxDemo.app"
+            BlueprintName = "SwiftBoxDemo"
+            ReferencedContainer = "container:SwiftBoxDemo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
